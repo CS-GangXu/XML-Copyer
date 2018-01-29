@@ -23,7 +23,7 @@
             <ymax>431</ymax>
         </bndbox>
     </object>
-    <object>
+<object>
         <name>boat</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -34,8 +34,7 @@
             <xmax>558</xmax>
             <ymax>431</ymax>
         </bndbox>
-    </object>
-    <object>
+    </object><object>
         <name>boat</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -46,8 +45,7 @@
             <xmax>290</xmax>
             <ymax>133</ymax>
         </bndbox>
-    </object>
-    <object>
+    </object><object>
         <name>airplane</name>
         <pose>Unspecified</pose>
         <truncated>0</truncated>
@@ -58,5 +56,4 @@
             <xmax>286</xmax>
             <ymax>446</ymax>
         </bndbox>
-    </object>
-</annotation>
+    </object></annotation>

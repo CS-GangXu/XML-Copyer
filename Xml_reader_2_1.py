@@ -2,11 +2,12 @@
 # -*- coding: UTF-8 -*-
 # xml reader version 2.1 
 
+import os
 import xml.dom.minidom
 
-source_Path = '/home/xg/桌面/工程/XML Copyer/source.xml' # 提供素材的xml文件地址
-need_Path = '/home/xg/桌面/工程/XML Copyer/need.xml' # 需要素材的xml文件地址
-des_Path = '/home/xg/桌面/工程/XML Copyer/des.xml' # 最后生成的xml文件地址
+source_Path = '/home/xg/桌面/工程/Git/XML-Copyer/source.xml' # 提供素材的xml文件地址
+need_Path = '/home/xg/桌面/工程/Git/XML-Copyer/need.xml' # 需要素材的xml文件地址
+des_Path = '/home/xg/桌面/工程/Git/XML-Copyer/des.xml' # 最后生成的xml文件地址
 
 def xml_Reader(source_Path):
     DOMTree = xml.dom.minidom.parse(source_Path) # 得到xml引用
@@ -32,3 +33,4 @@ source_Objs = xml_Reader(source_Path)
 des_Xml = xml_Appender(need_Path,source_Objs)
 xml_Writer(des_Path,des_Xml)
 print 'change complete'
+print os.path.realpath(__file__)
