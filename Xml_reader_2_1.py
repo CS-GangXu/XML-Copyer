@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 sadsasa
-222
 import os
 import xml.dom.minidom
 
