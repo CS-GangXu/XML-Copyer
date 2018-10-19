@@ -12,6 +12,7 @@ print root.nodeValue
 print root.nodeType
 print root.ELEMENT_NODE
 111
+111
 '''
 print "*****Object*****"
 object_Type = sub_Object.getElementsByTagName('name')[0]
