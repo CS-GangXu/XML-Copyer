@@ -3,9 +3,7 @@
 sadsasa
 jkasld
 sadjhkasdhjk
-sadjkl'
-asdjkl]
-asdjklasd
+sadsasdfa
 asd
 import os
 import xml.dom.minidom
