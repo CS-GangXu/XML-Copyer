@@ -1,7 +1,7 @@
 #coding=utf-8
 import  xml.dom.minidom
 # xml reader version 1.0
-
+sadsadsdsa
 #open the xml document
 dom = xml.dom.minidom.parse('movie.xml')
 
